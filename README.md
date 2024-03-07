@@ -86,11 +86,7 @@ docker-compose up -d
 <span class="pl-c"><span class="pl-c">#</span> Change Baseurl</span>
 <span class="pl-c"><span class="pl-c">#</span> baseurl GreaterWMS/templates/public/statics/baseurl.txt</span>
 docker-compose restart</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd GreaterWMS/
-docker-compose up -d
-# Change Baseurl
-# baseurl GreaterWMS/templates/public/statics/baseurl.txt
-docker-compose restart" tabindex="0" role="button">
+  
      
 </svg>
     
@@ -114,11 +110,7 @@ docker-compose restart" tabindex="0" role="button">
 daphne -p 8008 greaterwms.asgi:application
 or
 daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application <span class="pl-c"><span class="pl-c">#</span> lan</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd GreaterWMS
-daphne -p 8008 greaterwms.asgi:application
-or
-daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # lan" tabindex="0" role="button">
-     
+    
      
 </svg>
     </clipboard-copy>
@@ -128,8 +120,7 @@ daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # lan" tabindex="0" role="
 </ul>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> templates
 quasar d</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd templates
-quasar d" tabindex="0" role="button">
+   
     
 </svg>
     
@@ -189,9 +180,7 @@ quasar build -m [android, ios]</pre><div class="zeroclipboard-container">
 
 Split APKs Installer 
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="App store search
-
-Split APKs Installer " tabindex="0" role="button">
+   
      
 </svg>
       
