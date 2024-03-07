@@ -1,213 +1,268 @@
-<div align="center">
-  <img src="static/img/logo.png" alt="GreaterWMS logo" width="200" height="auto" />
-  <h1>GreaterWMS</h1>
-  <p>Open Source Inventory Management System </p>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/GreaterWMS/GreaterWMS/blob/master/static/img/logo.png"><img src="/GreaterWMS/GreaterWMS/raw/master/static/img/logo.png" alt="更大的WMS标志" width="200" height="auto" style="max-width: 100%;"></a>
+  <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更大的WMS</font></font></h1><a id="user-content-greaterwms" class="anchor" aria-label="永久链接：GreaterWMS" href="#greaterwms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源库存管理系统</font></font></p>
 
-<!-- Badges -->
-![License: APLv2](https://img.shields.io/github/license/GreaterWMS/GreaterWMS)
-![Release Version (latest Version)](https://img.shields.io/github/v/release/GreaterWMS/GreaterWMS?color=orange&include_prereleases)
-![QR Code Support](https://img.shields.io/badge/QR--Code-Support-orange.svg)
-![Docker Support](https://img.shields.io/badge/Docker-Support-orange.svg)
-![i18n Support](https://img.shields.io/badge/i18n-Support-orange.svg)
-
-![repo size](https://img.shields.io/github/repo-size/GreaterWMS/GreaterWMS)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/GreaterWMS/GreaterWMS)
-![Contributors](https://img.shields.io/github/contributors/GreaterWMS/GreaterWMS?color=blue)
-
-![GitHub Org's stars](https://img.shields.io/github/stars/GreaterWMS?style=social)
-![GitHub Follows](https://img.shields.io/github/followers/Singosgu?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/GreaterWMS/GreaterWMS?style=social)
-![GitHub Watch](https://img.shields.io/github/watchers/GreaterWMS/GreaterWMS?style=social)
-
-![Python](https://img.shields.io/badge/Python-3.8.10-yellowgreen)
-![Django](https://img.shields.io/badge/Django-4.1.2-yellowgreen)
-![Quasar Cli](https://img.shields.io/badge/Quasar/cli-1.2.1-yellowgreen)
-![Vue](https://img.shields.io/badge/Vue-2.6.0-yellowgreen)
-![NodeJS](https://img.shields.io/badge/NodeJS-14.19.3-yellowgreen)
-
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCPW1wciGMIEh7CYOdLnsloA?color=red&label=YouTube&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA)
-
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/271af49a2e08dc928f2bc27480722dcfa19786056f6dca3a3d98bda29848a095/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f47726561746572574d532f47726561746572574d53"><img src="https://camo.githubusercontent.com/271af49a2e08dc928f2bc27480722dcfa19786056f6dca3a3d98bda29848a095/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f47726561746572574d532f47726561746572574d53" alt="许可证：APLv2" data-canonical-src="https://img.shields.io/github/license/GreaterWMS/GreaterWMS" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2e3cc915b933eda6511720cecf8a171213677f4eb050610bdb20b9a05897b503/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f47726561746572574d532f47726561746572574d533f636f6c6f723d6f72616e676526696e636c7564655f70726572656c6561736573"><img src="https://camo.githubusercontent.com/2e3cc915b933eda6511720cecf8a171213677f4eb050610bdb20b9a05897b503/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f47726561746572574d532f47726561746572574d533f636f6c6f723d6f72616e676526696e636c7564655f70726572656c6561736573" alt="发布版本（最新版本）" data-canonical-src="https://img.shields.io/github/v/release/GreaterWMS/GreaterWMS?color=orange&amp;include_prereleases" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/34ebd901973dbdd8a160c8914d8cb86ab60b15c7001dfbadfe059ead2fa294c0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f51522d2d436f64652d537570706f72742d6f72616e67652e737667"><img src="https://camo.githubusercontent.com/34ebd901973dbdd8a160c8914d8cb86ab60b15c7001dfbadfe059ead2fa294c0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f51522d2d436f64652d537570706f72742d6f72616e67652e737667" alt="二维码支持" data-canonical-src="https://img.shields.io/badge/QR--Code-Support-orange.svg" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/822b52fbc5cc1b137a0cc99f0f7245a6b6f56a154d1cbbef1cad5d394c8570c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d537570706f72742d6f72616e67652e737667"><img src="https://camo.githubusercontent.com/822b52fbc5cc1b137a0cc99f0f7245a6b6f56a154d1cbbef1cad5d394c8570c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d537570706f72742d6f72616e67652e737667" alt="Docker 支持" data-canonical-src="https://img.shields.io/badge/Docker-Support-orange.svg" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7a35bd553ae52567ddae04e95ef9b65cd78b342531592fe0661aadee5732b3b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6931386e2d537570706f72742d6f72616e67652e737667"><img src="https://camo.githubusercontent.com/7a35bd553ae52567ddae04e95ef9b65cd78b342531592fe0661aadee5732b3b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6931386e2d537570706f72742d6f72616e67652e737667" alt="国际化支持" data-canonical-src="https://img.shields.io/badge/i18n-Support-orange.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0eab8a9eb258886781be571ae779ed7cde07ef13d23265dd4dc8c0f58c427cf4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f47726561746572574d532f47726561746572574d53"><img src="https://camo.githubusercontent.com/0eab8a9eb258886781be571ae779ed7cde07ef13d23265dd4dc8c0f58c427cf4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f47726561746572574d532f47726561746572574d53" alt="回购规模" data-canonical-src="https://img.shields.io/github/repo-size/GreaterWMS/GreaterWMS" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4dabb2c26ed52875cc91feba65d480731db44452743d9698e0833dd913dcd915/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f47726561746572574d532f47726561746572574d53"><img src="https://camo.githubusercontent.com/4dabb2c26ed52875cc91feba65d480731db44452743d9698e0833dd913dcd915/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f47726561746572574d532f47726561746572574d53" alt="GitHub 提交活动" data-canonical-src="https://img.shields.io/github/commit-activity/m/GreaterWMS/GreaterWMS" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f002dad8319272c83cced0ecca478c0ce92b4aa5e9bedb1433033b717ed1e516/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f47726561746572574d532f47726561746572574d533f636f6c6f723d626c7565"><img src="https://camo.githubusercontent.com/f002dad8319272c83cced0ecca478c0ce92b4aa5e9bedb1433033b717ed1e516/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f47726561746572574d532f47726561746572574d533f636f6c6f723d626c7565" alt="贡献者" data-canonical-src="https://img.shields.io/github/contributors/GreaterWMS/GreaterWMS?color=blue" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d760adcb2882b832f4c1143ffa3fb568bceb2a7047ebecf8aab65b7a04cdb3b3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f47726561746572574d533f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/d760adcb2882b832f4c1143ffa3fb568bceb2a7047ebecf8aab65b7a04cdb3b3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f47726561746572574d533f7374796c653d736f6369616c" alt="GitHub Org 的星星" data-canonical-src="https://img.shields.io/github/stars/GreaterWMS?style=social" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/bcbb48d91bc79d76cae359bd9a033815a1aea03a323bb83323ca45cb618718d4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f6c6c6f776572732f53696e676f7367753f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/bcbb48d91bc79d76cae359bd9a033815a1aea03a323bb83323ca45cb618718d4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f6c6c6f776572732f53696e676f7367753f7374796c653d736f6369616c" alt="GitHub 关注" data-canonical-src="https://img.shields.io/github/followers/Singosgu?style=social" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/06b6cf1f15fe4f2277b119f0c63271ea835534ae956eaff0a88a025a7c52d09d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f47726561746572574d532f47726561746572574d533f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/06b6cf1f15fe4f2277b119f0c63271ea835534ae956eaff0a88a025a7c52d09d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f47726561746572574d532f47726561746572574d533f7374796c653d736f6369616c" alt="GitHub 分叉" data-canonical-src="https://img.shields.io/github/forks/GreaterWMS/GreaterWMS?style=social" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3e9b6c7bfd0e4da8c8b9990a4ec4384e7d41e8ef9e9f911a963c2ad41fece4cd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f77617463686572732f47726561746572574d532f47726561746572574d533f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/3e9b6c7bfd0e4da8c8b9990a4ec4384e7d41e8ef9e9f911a963c2ad41fece4cd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f77617463686572732f47726561746572574d532f47726561746572574d533f7374796c653d736f6369616c" alt="GitHub 观看" data-canonical-src="https://img.shields.io/github/watchers/GreaterWMS/GreaterWMS?style=social" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/334a3cf953494f15d73e94e0b012cd653ef3d7aee4e0572e5d9d1052d89886c1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d332e382e31302d79656c6c6f77677265656e"><img src="https://camo.githubusercontent.com/334a3cf953494f15d73e94e0b012cd653ef3d7aee4e0572e5d9d1052d89886c1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d332e382e31302d79656c6c6f77677265656e" alt="Python" data-canonical-src="https://img.shields.io/badge/Python-3.8.10-yellowgreen" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/dfee1eb14ebe66c2d4549a20a7217d7bb4d0a5b2e3a01e8fb87694758244ddaa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446a616e676f2d342e312e322d79656c6c6f77677265656e"><img src="https://camo.githubusercontent.com/dfee1eb14ebe66c2d4549a20a7217d7bb4d0a5b2e3a01e8fb87694758244ddaa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446a616e676f2d342e312e322d79656c6c6f77677265656e" alt="姜戈" data-canonical-src="https://img.shields.io/badge/Django-4.1.2-yellowgreen" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8880e7298cf2fd9f19e3a11b7469e48ef569631efae7842c4ac89f8a544ecfb9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5175617361722f636c692d312e322e312d79656c6c6f77677265656e"><img src="https://camo.githubusercontent.com/8880e7298cf2fd9f19e3a11b7469e48ef569631efae7842c4ac89f8a544ecfb9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5175617361722f636c692d312e322e312d79656c6c6f77677265656e" alt="类星体克利" data-canonical-src="https://img.shields.io/badge/Quasar/cli-1.2.1-yellowgreen" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/85df55fec8c0cba084191fc372092e0c2d687c86ece897265ae2d6552c61801c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5675652d322e362e302d79656c6c6f77677265656e"><img src="https://camo.githubusercontent.com/85df55fec8c0cba084191fc372092e0c2d687c86ece897265ae2d6552c61801c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5675652d322e362e302d79656c6c6f77677265656e" alt="维埃" data-canonical-src="https://img.shields.io/badge/Vue-2.6.0-yellowgreen" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3681fee524829c9bfb7f4e350618b417a885649d87ecad609a983115da8fdc5b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64654a532d31342e31392e332d79656c6c6f77677265656e"><img src="https://camo.githubusercontent.com/3681fee524829c9bfb7f4e350618b417a885649d87ecad609a983115da8fdc5b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64654a532d31342e31392e332d79656c6c6f77677265656e" alt="NodeJS" data-canonical-src="https://img.shields.io/badge/NodeJS-14.19.3-yellowgreen" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA" rel="nofollow"><img src="https://camo.githubusercontent.com/cbde3867e3693e800c5f71ad37d07b08e69643a5d3415c406384b81cb9780427/68747470733a2f2f696d672e736869656c64732e696f2f796f75747562652f6368616e6e656c2f73756273637269626572732f5543505731776369474d4945683743594f644c6e736c6f413f636f6c6f723d726564266c6162656c3d596f7554756265266c6f676f3d796f7574756265267374796c653d666f722d7468652d6261646765" alt="YouTube" data-canonical-src="https://img.shields.io/youtube/channel/subscribers/UCPW1wciGMIEh7CYOdLnsloA?color=red&amp;label=YouTube&amp;logo=youtube&amp;style=for-the-badge" style="max-width: 100%;"></a></p>
 </div>
-
-#### You can share your vacant warehouse space, use it for those in need, and generate income
-
-## :rocket: Link US
-<h4>
-    <a href="https://www.56yhz.com/">Home Page</a>
-</h4>
-<h4>
-    <a href="https://production.56yhz.com/">Demo</a>
-</h4>
-<h4>
-  <a href="https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA">Video Tutorials</a>
-</h4>
-<h4>
-  <a href="https://github.com/GreaterWMS/GreaterwMS/issues/new?template=bug_report.md&title=[BUG]">Report Bug</a>
-</h4>
-<h4>   
-  <a href="https://github.com/GreaterWMS/GreaterWMS/issues/new?template=feature_request.md&title=[FR]">Request Feature</a>
-</h4>
-<h4>
-  <a href="https://www.56yhz.com/zh/greaterwms.html">中文文档</a>
-</h4>
-
-[//]: # (About the Project)
-## :star2: About the Project
-
-This Inventory management system is the currently Ford Asia Pacific after-sales logistics warehousing supply chain process.
-After I leave Ford, I start this project in order to help some who need it. 
-OneAPP Type. Support scanner PDA, mobile APP, desktop exe, website as well.
-
-[//]: # (Function)
-## :dart: Function
-
-* [x] Multiple Warehouses
-* [x] Supplier Management
-* [x] Customer Management
-* [x] Scanner PDA
-* [x] Cycle Count
-* [x] Order Management
-* [x] Stock Control
-* [x] Safety Stock Show
-* [x] API Documents
-* [x] IOS APP Support
-* [x] Android APP Support
-* [x] Electron APP Support
-* [x] Auto Update
-* [x] i18n Support
-* [x] API Documents
-
-[//]: # (Install)
-## :compass: Install
-Python install
-- [python 3.8.10](https://www.python.org/downloads/release/python-3810/)
-
-Nodejs install
-- [nodejs 14.19.3](https://nodejs.org/download/release/v14.19.3/)
-
-Twisted install
-- Please google how to install Twisted , if you have some problem on install it . 
-
-Clone Project
-~~~shell
-git clone https://github.com/GreaterWMS/GreaterWMS.git
-~~~
-
-### docker(Optional)
-~~~shell
-cd GreaterWMS/
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以分享您的空置仓库空间，将其用于有需要的人，并产生收入</font></font></h4><a id="user-content-you-can-share-your-vacant-warehouse-space-use-it-for-those-in-need-and-generate-income" class="anchor" aria-label="永久链接：您可以分享您的空置仓库空间，将其用于有需要的人，并产生收入" href="#you-can-share-your-vacant-warehouse-space-use-it-for-those-in-need-and-generate-income"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 链接我们</font></font></h2><a id="user-content-rocket-link-us" class="anchor" aria-label="永久链接： :rocket: 链接美国" href="#rocket-link-us"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+    <a href="https://www.56yhz.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页</font></font></a>
+</h4><a id="user-content-----home-page" class="anchor" aria-label="永久链接：主页" href="#----home-page"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+    <a href="https://production.56yhz.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></a>
+</h4><a id="user-content-----demo" class="anchor" aria-label="永久链接：演示" href="#----demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频教程</font></font></a>
+</h4><a id="user-content---video-tutorials" class="anchor" aria-label="永久链接：视频教程" href="#--video-tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://github.com/GreaterWMS/GreaterwMS/issues/new?template=bug_report.md&amp;title=[BUG]"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告软件缺陷</font></font></a>
+</h4><a id="user-content---report-bug" class="anchor" aria-label="永久链接：报告错误" href="#--report-bug"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">   
+  <a href="https://github.com/GreaterWMS/GreaterWMS/issues/new?template=feature_request.md&amp;title=[FR]"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求功能</font></font></a>
+</h4><a id="user-content------request-feature" class="anchor" aria-label="永久链接：请求功能" href="#-----request-feature"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/zh/greaterwms.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中文文档</font></font></a>
+</h4><a id="user-content---中文文档" class="anchor" aria-label="永久链接：中文文档" href="#--中文文档"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌟 关于项目</font></font></h2><a id="user-content-star2-about-the-project" class="anchor" aria-label="永久链接：：star2：关于该项目" href="#star2-about-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个库存管理系统就是目前福特亚太区售后物流仓储供应链流程。</font><font style="vertical-align: inherit;">离开福特后，我启动了这个项目，以帮助一些需要帮助的人。</font><font style="vertical-align: inherit;">OneAPP 类型。</font><font style="vertical-align: inherit;">支持扫描仪PDA、手机APP、桌面exe、网站。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎯 功能</font></font></h2><a id="user-content-dart-function" class="anchor" aria-label="永久链接： :dart: 函数" href="#dart-function"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多个仓库</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">供应商管理</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户管理</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扫描仪掌上电脑</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周期盘点</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订单管理</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存货控制</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全库存展示</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API文档</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS应用程序支持</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓APP支持</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子APP支持</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动更新</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">国际化支持</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API文档</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧭 安装</font></font></h2><a id="user-content-compass-install" class="anchor" aria-label="永久链接：：指南针：安装" href="#compass-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python安装</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.python.org/downloads/release/python-3810/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">蟒蛇3.8.10</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nodejs安装</font></font></p>
+<ul dir="auto">
+<li><a href="https://nodejs.org/download/release/v14.19.3/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点js 14.19.3</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扭曲安装</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在安装时遇到问题，请谷歌如何安装 Twisted。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆项目</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/GreaterWMS/GreaterWMS.git</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/GreaterWMS/GreaterWMS.git" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头工人（可选）</font></font></h3><a id="user-content-dockeroptional" class="anchor" aria-label="永久链接：docker（可选）" href="#dockeroptional"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> GreaterWMS/
+docker-compose up -d
+<span class="pl-c"><span class="pl-c">#</span> Change Baseurl</span>
+<span class="pl-c"><span class="pl-c">#</span> baseurl GreaterWMS/templates/public/statics/baseurl.txt</span>
+docker-compose restart</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd GreaterWMS/
 docker-compose up -d
 # Change Baseurl
 # baseurl GreaterWMS/templates/public/statics/baseurl.txt
-docker-compose restart
-~~~
-
-<h4>
-  <a href="https://www.56yhz.com/win_10.html">Windows X64</a>
-</h4>
-<h4>
-  <a href="https://www.56yhz.com/centos_7.html">Centos 7</a>
-</h4>
-<h4>
-  <a href="https://www.56yhz.com/ubuntu_20.html">Ubuntu 20</a>
-</h4>
-
-[//]: # (development)
-## :hammer_and_wrench: How To Run Development Server:
-
-- Run Backend:
-~~~shell
-cd GreaterWMS
+docker-compose restart" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/win_10.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows X64</font></font></a>
+</h4><a id="user-content---windows-x64" class="anchor" aria-label="永久链接：Windows X64" href="#--windows-x64"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/centos_7.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">森托斯7</font></font></a>
+</h4><a id="user-content---centos-7" class="anchor" aria-label="永久链接：Centos 7" href="#--centos-7"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/ubuntu_20.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">乌班图20</font></font></a>
+</h4><a id="user-content---ubuntu-20" class="anchor" aria-label="永久链接：Ubuntu 20" href="#--ubuntu-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️ 如何运行开发服务器：</font></font></h2><a id="user-content-hammer_and_wrench-how-to-run-development-server" class="anchor" aria-label="永久链接：：hammer_and_wrench：如何运行开发服务器：" href="#hammer_and_wrench-how-to-run-development-server"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行后端：</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> GreaterWMS
 daphne -p 8008 greaterwms.asgi:application
 or
-daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # lan
-~~~
+daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application <span class="pl-c"><span class="pl-c">#</span> lan</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd GreaterWMS
+daphne -p 8008 greaterwms.asgi:application
+or
+daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # lan" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行前端：</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> templates
+quasar d</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd templates
+quasar d" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改请求基本 URL</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>templates/public/statics/baseurl.txt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="templates/public/statics/baseurl.txt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API文档</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>baseurl + <span class="pl-s"><span class="pl-pds">'</span>/docs/<span class="pl-pds">'</span></span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="baseurl + '/docs/'" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配套手机APP</font></font></h3><a id="user-content-companion-mobile-app" class="anchor" aria-label="永久链接：伴侣移动APP" href="#companion-mobile-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序源代码</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm install cordova -g
 
-- Run Frontend:
-~~~shell
-cd templates
-quasar d
-~~~
-
-- Change Request Baseurl
-~~~shell
-templates/public/statics/baseurl.txt
-~~~
-
-- API Documents
-
-~~~shell
-baseurl + '/docs/'
-~~~
-
-### Companion Mobile APP
-
-- App Source Code
-
-~~~shell
-npm install cordova -g
+<span class="pl-c1">cd</span> app
+yarn install
+<span class="pl-c"><span class="pl-c">#</span># Development</span>
+quasar d -m cordova -T [android, ios]
+<span class="pl-c"><span class="pl-c">#</span># Deploy</span>
+quasar build -m [android, ios]</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install cordova -g
 
 cd app
 yarn install
 ## Development
 quasar d -m cordova -T [android, ios]
 ## Deploy
-quasar build -m [android, ios]
-~~~
+quasar build -m [android, ios]" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想构建应用程序，可以直接使用它</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GreaterWMS 由配套移动应用程序支持，允许用户访问以良好地运营业务。</font><font style="vertical-align: inherit;">它可以通过您的相机或 PDA 扫描仪扫描货物。</font></font></p>
+<p dir="auto"><a href="https://apps.apple.com/gb/app/intelligent-warehousing-gwms/id6444078526" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IOS</font></font></a></p>
+<p dir="auto"><a href="https://production.56yhz.com/media/GWMS.apks" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载 Android 安装程序工具</font></font></h2><a id="user-content-download-android-installer-tools" class="anchor" aria-label="永久链接：下载 Android 安装程序工具" href="#download-android-installer-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">!!! </font><font style="vertical-align: inherit;">信息“安卓”</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>App store search
 
-- You can directly use app if you don't want to build it 
+Split APKs Installer 
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="App store search
 
-GreaterWMS is supported by a companion mobile app which allows users access to run the business well.
-It can scan the goods by your camera or your PDA scanner.
-
-[IOS](https://apps.apple.com/gb/app/intelligent-warehousing-gwms/id6444078526)
-
-[Android](https://production.56yhz.com/media/GWMS.apks)
-
-## Download Android installer tools
-
-!!! info "Android"
-    
-    App store search
-
-    Split APKs Installer 
-
-## Directly download installer tools
-
-[Sai](https://po.56yhz.com/media/sai.apk)
-
-- Open Sai APP, choose GWMS.apks then install
-
-[//]: # (publish)
-## :trumpet: How To Publish Your APP:
-
-- Web Build:
-
-~~~shell
-cd templates
-quasar build
-~~~
-
-[//]: # (deploy)
-## :computer: How To Deploy Server:
-
-<h4>
-  <a href="https://www.56yhz.com/supervisor_process_guarded.html">Supervisor Process Guarded</a>
-</h4>
-<h4>
-  <a href="https://www.56yhz.com/nginx_config.html">Nginx Config</a>
-</h4>
-
-If the server has SSL enabled, please use HTTPS and WSS, if SSL is not enabled, use HTTP and WS
-
-The front-end code needs to be rebuilt after modification.
-
-## Show
-<div align="left">
-    <img src="static/img/GreaterWMS_en.png" alt="GreaterWMS home" width="" height="400" />
+Split APKs Installer " tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接下载安装工具</font></font></h2><a id="user-content-directly-download-installer-tools" class="anchor" aria-label="永久链接：直接下载安装程序工具" href="#directly-download-installer-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://po.56yhz.com/media/sai.apk" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赛伊</font></font></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开Sai APP，选择GWMS.apks然后安装</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎺 如何发布您的应用程序：</font></font></h2><a id="user-content-trumpet-how-to-publish-your-app" class="anchor" aria-label="永久链接：：trumpet：如何发布您的应用程序：" href="#trumpet-how-to-publish-your-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网页构建：</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> templates
+quasar build</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd templates
+quasar build" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 如何部署服务器：</font></font></h2><a id="user-content-computer-how-to-deploy-server" class="anchor" aria-label="永久链接：：计算机：如何部署服务器：" href="#computer-how-to-deploy-server"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/supervisor_process_guarded.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主管进程受保护</font></font></a>
+</h4><a id="user-content---supervisor-process-guarded" class="anchor" aria-label="永久链接：主管进程受保护" href="#--supervisor-process-guarded"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">
+  <a href="https://www.56yhz.com/nginx_config.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nginx 配置</font></font></a>
+</h4><a id="user-content---nginx-config" class="anchor" aria-label="永久链接：Nginx 配置" href="#--nginx-config"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果服务器启用了 SSL，请使用 HTTPS 和 WSS，如果未启用 SSL，请使用 HTTP 和 WS</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前端代码修改后需要重新构建。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展示</font></font></h2><a id="user-content-show" class="anchor" aria-label="永久链接： 显示" href="#show"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div align="left" dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/GreaterWMS/GreaterWMS/blob/master/static/img/GreaterWMS_en.png"><img src="/GreaterWMS/GreaterWMS/raw/master/static/img/GreaterWMS_en.png" alt="更大的WMS主页" width="" height="400" style="max-width: 100%;"></a>
 </div>
-<div align="left">
-    <img src="static/img/mobile_splash.jpg" alt="GreaterWMS splash" width="200" height="400" />
-    <img src="static/img/mobile_dn_en.jpg" alt="GreaterWMS dn" width="200" height="400" />
-    <img src="static/img/mobile_equ_en.jpg" alt="GreaterWMS goods" width="200" height="400" />
+<div align="left" dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/GreaterWMS/GreaterWMS/blob/master/static/img/mobile_splash.jpg"><img src="/GreaterWMS/GreaterWMS/raw/master/static/img/mobile_splash.jpg" alt="更大的WMS飞溅" width="200" height="400" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer" href="/GreaterWMS/GreaterWMS/blob/master/static/img/mobile_dn_en.jpg"><img src="/GreaterWMS/GreaterWMS/raw/master/static/img/mobile_dn_en.jpg" alt="更大的WMS dn" width="200" height="400" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer" href="/GreaterWMS/GreaterWMS/blob/master/static/img/mobile_equ_en.jpg"><img src="/GreaterWMS/GreaterWMS/raw/master/static/img/mobile_equ_en.jpg" alt="更大的WMS货物" width="200" height="400" style="max-width: 100%;"></a>
 </div>
+</article></div>
